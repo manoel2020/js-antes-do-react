@@ -35,7 +35,7 @@ const user =  {
     }
 }
 
-//conceito de desestruturação de objeto
+ /*conceito de desestruturação de objeto*/
 
 const {nome, idade: idadeUser, naoExiste = 'Não existe a chave mas posso criar e setar um valor default'} = user;
 
@@ -47,10 +47,10 @@ function retornarEndereco({endereco}){
 console.log(`minha idade é ${retornarEndereco(user)}`);
 
 
-//conceito de Rest Operator
+/*conceito de Rest Operator*/
 
-const {name, age, ...rest} = user;
+const {name, ...rest} = user;
 
-console.log(name, age, rest);
+console.log(name, rest);
 
 // Fim Objetos
