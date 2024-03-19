@@ -112,7 +112,3 @@ console.log(sistema.modulos?.tiposLicencas?.anual ?? 'Nao existe a informacao');
 console.log(sistema.modulos?.tiposLicencas?.retornarOrcamento?.() ?? 'Nao encontrado a funcao para retornar Orcamentos.');
 
 // Fim Objetos
-
-
-//metodos de array
-
