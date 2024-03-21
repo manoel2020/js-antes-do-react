@@ -1,0 +1,54 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ body {
+    background-color: #CCC;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+ }
+
+ .container {    
+    width: 500px;
+    max-width: 800px;
+    padding: 5px;
+}
+
+.input {    
+    display: flex;
+    align-items: center;
+    justify-content: center;      
+    margin-bottom: 10px;
+}
+
+.input #inpTarefa {    
+    line-height: 25px;    
+    margin-right: 5px;
+    font-size: 15px;
+    width: 100%;
+}
+
+.input button {    
+    padding: 5px;
+    cursor: pointer;
+}
+
+.corpo {    
+ padding: 5px;   
+}
+
+.corpo_lista {
+    list-style: none;
+}
+
+.corpo_lista li {
+    font-size: 15px;
+    padding: 3px;
+}
+.corpo_lista li button{
+    padding: 2px;
+    cursor: pointer;
+}

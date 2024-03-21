@@ -1,6 +1,6 @@
 /*
     Existem N metodos para se trabalhar com array, mas os mais importantes são os 
-    map, filter, every, some, fund, findIndex, reduce
+    map, filter, every, some, find, findIndex, reduce
 */
 
 const numeros = [0,1,2,3,4,5,6,7,8,9];
